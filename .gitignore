@@ -1,0 +1,10 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+
+# Docker
+*.log
+docker-compose.override.yml
