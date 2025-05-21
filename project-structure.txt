@@ -1,0 +1,48 @@
+.
+├── backend
+│   ├── app
+│   │   ├── crud
+│   │   ├── database.py
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── models
+│   │   ├── routers
+│   │   └── schemas
+│   ├── database.py
+│   ├── main.py
+│   ├── models
+│   │   └── satellite.py
+│   ├── requirements.txt
+│   └── venv
+│       ├── bin
+│       ├── include
+│       ├── lib
+│       ├── lib64 -> lib
+│       └── pyvenv.cfg
+├── docker-compose.yml
+├── Dockerfile
+├── LICENSE
+├── project-structure.txt
+├── README.md
+├── requirements.txt
+└── venv
+    ├── bin
+    │   ├── activate
+    │   ├── activate.csh
+    │   ├── activate.fish
+    │   ├── Activate.ps1
+    │   ├── dotenv
+    │   ├── pip
+    │   ├── pip3
+    │   ├── pip3.12
+    │   ├── python -> python3
+    │   ├── python3 -> /usr/bin/python3
+    │   └── python3.12 -> python3
+    ├── include
+    │   └── python3.12
+    ├── lib
+    │   └── python3.12
+    ├── lib64 -> lib
+    └── pyvenv.cfg
+
+20 directories, 26 files

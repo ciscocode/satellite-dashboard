@@ -8,7 +8,7 @@ services:
     ports:
       - "8000:8000"
     env_file:
-      - ./backend/.env
+      - .env
     depends_on:
       - db
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000  # Add this line
@@ -24,7 +24,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - "5433:5432"
 
 volumes:
   postgres_data:
