@@ -6,6 +6,9 @@ class SatelliteBase(BaseModel):
     velocity: float
     battery: float
     health_status: str
+    latitude: float
+    longitude: float
+    heading: float | None = None  # optional
 
 class SatelliteCreate(SatelliteBase):
     pass
